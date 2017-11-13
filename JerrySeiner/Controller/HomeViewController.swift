@@ -40,6 +40,6 @@ class HomeViewController: UIViewController {
         appointmentView.layer.cornerRadius = 20
         appointmentView.layer.masksToBounds = true
         
-        verticalLineView.transform = CGAffineTransform(rotationAngle: CGFloat.pi / 2)
+//        verticalLineView.transform = CGAffineTransform(rotationAngle: CGFloat.pi / 2)
     }
 }
