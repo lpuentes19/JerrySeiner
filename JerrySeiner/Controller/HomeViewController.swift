@@ -15,7 +15,6 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var accessoriesLabel: UILabel!
     @IBOutlet weak var customerSurveysLabel: UILabel!
     @IBOutlet weak var appointmentView: UIView!
-    @IBOutlet weak var verticalLineView: UIView!
     @IBOutlet weak var addAppointmentImage: UIImageView!
     
     override func viewDidLoad() {
@@ -39,7 +38,5 @@ class HomeViewController: UIViewController {
         
         appointmentView.layer.cornerRadius = 20
         appointmentView.layer.masksToBounds = true
-        
-//        verticalLineView.transform = CGAffineTransform(rotationAngle: CGFloat.pi / 2)
     }
 }
